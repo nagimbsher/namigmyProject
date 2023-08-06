@@ -17,16 +17,24 @@ const SearchIt = () => {
         Entire studio . 1 bathrom . 21m 1 full bed
       </span>
       <span className="siCancelOp"> free cancellation</span>
-      <span className="siCancelOpSubtitle"> You can cancle later, so lock in great price today!
+      <span className="siCancelOpSubtitle"> 
+      You can cancle later, so lock in great price today!
       </span>
      </div>
      <div className="siDetails">
       <div className="siRating">
         <span>Excelllent</span>
+        <button>8.9</button>
+      </div>
+      <div className="siDetailsTexs">
+        <span className="siPrice">$122 </span>
+        <span className="siTaxOp"> includes taxes and fees </span>
+        <button className="siCheckButton">
+          See availability</button>
       </div>
      </div>
     </div>
-  )
-}
+  );
+};
 
 export default SearchIt
