@@ -4,9 +4,11 @@ const FeaturedPop = () => {
   return (
     <div className="fp">
     <div className="fpItem">
-      
     <img
-     src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/179362750.jpg?k=fd442de52ed044b3eb928255e6c0f3a3499c3885616123982384732064625abb&o=&hp=1" alt=""className="fpImg" />
+     src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/179362750.jpg?k=fd442de52ed044b3eb928255e6c0f3a3499c3885616123982384732064625abb&o=&hp=1" 
+     alt=""
+     className="fpImg"
+      />
     <span className="fpName"> Aparthotel Tell Aviv</span>
     <span className="fpCity"> Tell Aviv</span>
     <span className="fpPrice"> Starting from $120</span>
@@ -14,8 +16,9 @@ const FeaturedPop = () => {
     <button>8.9</button>
     <span>Excellent</span>
     </div>
-    
-    <img src="https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/https://www.cfmedia.vfmleonardo.com/imageRepo/7/0/106/179/502/L_club_garden_room_1_300_dpi_O/Leonardo-Club-Hotel-Eilat-Room.jpg?tr=w-780%2Ch-437%2Cfo-auto" alt=""className="fpImg" />
+    </div>
+    <div className="fp">
+    <img src="https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/https://www.cfmedia.vfmleonardo.com/imageRepo/7/0/106/179/502/L_club_garden_room_1_300_dpi_O/Leonardo-Club-Hotel-Eilat-Room.jpg?tr=w-780%2Ch-437%2Cfo-auto" alt=""className="fpImg" />0
     <span className="fpName"> Aparthotel Leonardo Hotel Jerusalem </span>
     <span className="fpCity"> Israel</span>
     <span className="fpPrice"> Starting from $120</span>
@@ -41,7 +44,6 @@ const FeaturedPop = () => {
     <span>Excellent</span>
     </div>
     </div>
-    
     </div>
   );
 };

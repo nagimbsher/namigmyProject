@@ -63,7 +63,7 @@ const List = () => {
             <span className="lsOptionTex">
               Children
               </span>
-              <input type="number" min={0}className="lsOptionInput" placeholder= {options.children}/>
+              <input type="number" min={0}className="lsOptionInput"placeholder= {options.children}/>
             </div>
             </div>
             <div className="lsOptionItem">
