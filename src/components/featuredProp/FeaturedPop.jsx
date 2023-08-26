@@ -24,7 +24,7 @@ const FeaturedPop = () => {
     <span>Excellent</span>
     </div>
    
-    <img src="https://static.leonardo-hotels.com/image/herods-palace-executive-room-1_4e9550a9687b0eeeef6947b7f4d7d0df_1200x801_mobile_3.jpg" alt=""className="fpImg" />
+    <img src="https://cf.bstatic.com/xdata/images/hotel/square600/335868337.webp?k=ce00e66a8909b1ca02d9750cc327cb98288a825292d4774bff5965e842c9f053&o=" alt=""className="fpImg" />
     <span className="fpName"> Aparthotel Mitzpe Romon</span>
     <span className="fpCity">  Israel</span>
     <span className="fpPrice"> Starting from $120</span>
@@ -32,7 +32,7 @@ const FeaturedPop = () => {
     <button>8.9</button>
     <span>Excellent</span>
     </div>
-    <img src="https://lh3.googleusercontent.com/gps-proxy/AF-Tc0Tr_VmQC1hILRZO66kt_Xvs96ejn5nznQ1iq4JckGu5FPnpNaVGDnynZx1hrzWL0yx5Q2rGRrI_FJzXoMaxbHWcoMyT57dR7xGNu9_zL573ul8fOH8KNem4RWwcaSt4RVu9j3hDPtjaNADgLdC3RM-R2HwogwGADhIoOnHUgxpwzfMFfl9BZIv6=w592-h404-n-k-no-v1" alt=""className="fpImg" />
+    <img src="https://cf.bstatic.com/xdata/images/hotel/square600/469857195.webp?k=61971dc4b6bdc04d9ceada6632328b01eab89eb672bce56115d81d179804f379&o=" alt=""className="fpImg" />
     <span className="fpName"> Aparthotel Eilot Kibbutz Ktura Eilat</span>
     <span className="fpCity">  Israel</span>
     <span className="fpPrice"> Starting from $120</span>
