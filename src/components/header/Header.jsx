@@ -1,5 +1,4 @@
 import { 
-  
   faCalendarDays,
    faCar, 
    faPerson, 
@@ -18,7 +17,7 @@ import { useNavigate } from "react-router-dom";
 
 
 const Header = ({type}) => {
-  const [Destination, setDestination] =useState("");
+  const [destination, setDestination] = useState("");
   const [openDate, setOpenDate] =useState(false);
   const [date, setDate] = useState([
     {
@@ -32,7 +31,6 @@ const Header = ({type}) => {
     adult:1,
     children:0,
     room:1,
-    
   });
 const navigate = useNavigate()
 
@@ -47,10 +45,8 @@ const navigate = useNavigate()
 
     };
     const handeleSearch = () =>{
- 
-   navigate("/hotels", { state: { Destination, date, options } });
-
-    }
+   navigate("/hotels", { state: { destination, date, options } });
+    };
   return (
     <div className="header">
       <div className={type ==="list"? "headerContainer listMode" : "headerContainer"}>
@@ -88,7 +84,7 @@ const navigate = useNavigate()
          type="text"
          placeholder="where are you going?"
          className="headerSearchInput"
-         onChange={e=>setDestination(e.target.value)}
+         onChange={(e) => setDestination(e.target.value)}
          />
         </div>
           <div className="headerSearchItem">
@@ -98,14 +94,16 @@ const navigate = useNavigate()
          "mm/dd/yy"
          )}to ${format(date[0].endDate,"mm/dd/yy"
          )}`}</span>
-       {openDate && <DateRange
+       {openDate && (
+       <DateRange 
         editableDateInputs={true}
         onChange={item => setDate([item.selection])}
         moveRangeOnFirstSelection={false}
         ranges={date}
         className="date"
         minDate={new Date()}
-        />}
+        />
+        )}
         </div> 
         <div className="headerSearchItem">
         <FontAwesomeIcon icon={faPerson} className="headerIcon" />

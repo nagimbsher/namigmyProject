@@ -9,10 +9,10 @@
     flex: 1;
     gap: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column ;
 }
 .fpImg{
-    width: 100%;
+    width: 70%;
 }
 .fpCity{
     font-weight: 300;

@@ -14,7 +14,7 @@
     background-color: yellow;
     padding: 10px;
     border-radius: 10px;
-    position:sticky ;
+    position:sticky;
     top: 10px;
     height: max-content;
 }
@@ -23,6 +23,7 @@
     color: #555;
     margin-bottom: 10px;
 }
+
 
 .listItem{
     display: flex;
@@ -44,7 +45,7 @@ padding: 5px;
     background-color: white;
     display: flex;
     align-items: center;
-    cursor: pointer;
+    cursor: pointerx;
     }
     .lsOptionItem{
         display: flex;
@@ -53,10 +54,11 @@ padding: 5px;
         color: #555;
         font-size: 12px;
     }
-    .sOptionInput{
-        width: 50px;
+    .lsOptionInput{
+        width: 30px;
     
     }
+    
     .lsOptions{
         padding: 10px;
     }
